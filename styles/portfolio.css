@@ -12,6 +12,9 @@ body{
 /* nav related styles */
 nav{
     display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin: 0px 200px;
 }
 .nav-title{
     color: var(--Dark-01, #181818);
@@ -30,12 +33,24 @@ padding: 15px 35px;
 }
 nav > ul{
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
 }
 nav li {
     list-style: none;
     margin-right: 50px;
     color:#474747;
 
+}
+/* header related styles */
+.header{
+    background-color:  #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-pic{
+    width: 500px;
 }
